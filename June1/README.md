@@ -1,2 +1,2 @@
 ## JUNE 1 ASSIGNMENT
-![](SSJune1Addignment.png)
+![](SSJune1Assignment.png)
