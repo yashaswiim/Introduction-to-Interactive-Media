@@ -1,5 +1,6 @@
 //Window 
 size(500,500);
+background(200);
 
 int faceWidth=260;
 int faceHeight=400;
@@ -10,11 +11,11 @@ beginShape();
 curveVertex(width/2-60, height/2+faceHeight/2-40); //starting point
 curveVertex(width/2-60, height/2+faceHeight/2-40);
 curveVertex(width/2-60, height/2+faceHeight/2+30);
-curveVertex(50, height/2+faceHeight/2+30);
-curveVertex(50, height+50);
+curveVertex(width/2-200, height/2+faceHeight/2+30);
+curveVertex(width/2-200, height/2+300);
 
-curveVertex(width-50, height+50);
-curveVertex(width-50, height/2+faceHeight/2+30);
+curveVertex(width/2+200, height/2+300);
+curveVertex(width/2+200, height/2+faceHeight/2+30);
 curveVertex(width/2+60, height/2+faceHeight/2+30);
 curveVertex(width/2+60, height/2+faceHeight/2-40);
 curveVertex(width/2+60, height/2+faceHeight/2-40); //ending point
@@ -97,3 +98,9 @@ curveVertex(width/2+lipsWidth*2/6, lipPositionY-10);
 curveVertex(width/2+lipsWidth/2, lipPositionY);
 curveVertex(width/2+lipsWidth/2, lipPositionY); //ending position
 endShape();
+
+//covering the excess elements and keeping the portrait in shape
+fill(200);
+noStroke();
+rectMode(CORNERS);
+rect(0,height/2+250,width, height/2+400);
