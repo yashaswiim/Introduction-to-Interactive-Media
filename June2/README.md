@@ -3,9 +3,11 @@
 In this assignment, I was supposed to make a simple work of art using Processing. I have tried to create two different types of artworks using for loops and some basic shape functions of Processing. Both my artworks are of dynamic type but are different from each other.
 
 The first one is where it starts with a blank screen and forms the artwork as we look at it and later becomes still after it is complete. The screenshot is attached below:
+
 ![](SSJune2.png)
 
 The second artwork that I have tried is inspired from Mandala art designs. In this piece, the artwork is already formed when the program is run but it keeps rotating until the program is stopped. There is no movement across the screen in this piece, but only rotation within itself. The screenshot is attached below:
+
 ![](SSJune2Second.png)
 
 ### Challenges
