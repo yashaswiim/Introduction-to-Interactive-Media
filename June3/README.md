@@ -22,7 +22,7 @@ In this assignment, I was supposed to create an artwork or a game using Object O
 
 ![](SSJune3_5.png)
 
-![VIDEO]()
+![VIDEO](June3/June3Video-mc.mp4)
 
 ### CHALLENGES
 
