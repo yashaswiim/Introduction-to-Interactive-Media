@@ -22,7 +22,7 @@ In this assignment, I was supposed to create an artwork or a game using Object O
 
 ![](SSJune3_5.png)
 
-![VIDEO](https://raw.githubusercontent.com/ym1929/Introduction-to-Interactive-Media/master/June3/June3Video-mc.mp4)
+![Similar game online](https://www.memozor.com/memory-games/for-seniors-or-elderly/vintage-objects)
 
 ### CHALLENGES
 
