@@ -8,7 +8,7 @@ In this assignment, I was supposed to create an artwork or a game using Object O
 
 #### INITIAL DISPLAY OF CARDS FACED UP (allowing player to memorize)
 
-![](SSJune3_2.png)
+![](SSJune3__2.png)
 
 #### ALL CARDS FACED DOWN
 
