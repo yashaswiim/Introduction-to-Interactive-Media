@@ -22,8 +22,6 @@ In this assignment, I was supposed to create an artwork or a game using Object O
 
 ![](SSJune3_5.png)
 
-![Similar game online](https://www.memozor.com/memory-games/for-seniors-or-elderly/vintage-objects)
-
 ### CHALLENGES
 
 The process of making this game overnight was quite challenging for me. I had made games in Processing a few times for my past classes. However they were all over a span of 1-2 weeks. Having to plan, code and debug an entire game overnight was something I felt was quite difficult for me. Nonethelss, I was able to complete it on time. The main difficulty was planning how to design the game, which functions to use, and what attributes to assign to each class used in the game. I struggled with the variable mousePressed and the function mouseClicked() while trying to make my game work. I was extremely confused in how these two were different and how the use of each was affecting my code. Ultimately, after reading about these on Processing reference page and some trial and error, I figured out that the function was the key to making my game work properly rather than the variable. It also took me some time to figure out how to shuffle the cards and display the right card when clicked by the user. After a lot of brainstorming, I found my way to completing this assignment.
