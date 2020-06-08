@@ -19,6 +19,8 @@ In this assignment I was supposed to manipulate one or more images. So, I chose 
 
 ![](SSJune8_4.png)
 
+[Link to Video](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/June_8_image_manipulation/Video.mov)
+
 ### CHALLENGES
 
 It was challenging for me to implement different effects in different rounds, for example, changing colors, then disappearing and then making the shrinked image appear at the correct time. Figuring out how to change the effects at the right time was something that took me a lot of time and ultimately I made use of a variable countRounds to assign different different effects to different rounds. Also I took me a while to figure out how to make the grids disappear as I was not repainting the background every time the draw() function was running. Finally, I figured out that I could replace the respective grids of the image of the sun with the corresponding image piece of the background image, so that they disappear.
