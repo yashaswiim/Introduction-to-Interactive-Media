@@ -1,7 +1,7 @@
 ## JUNE 8 ASSIGNMENT
 #### IMAGE MANIPULATION
 
-In this assignment I was supposed to manipulate one or more images. So, I chose two images: one for my background and one for the manipulation. What I did in my code is that I loaded the image of sun into the background of sky and then created an animation where it appears as if the sun is divided into small grids and each grid of the sun is changing its color or disappearing. When the code is run, it asks the user to click to start. When the mouse is clicked, the small grids change their colors for two rounds and on the third round, the grids start to disappear and and ultimately the sky and a shrinked sun remain in the background. Screenshots are below:
+In this assignment I was supposed to manipulate one or more images. So, I chose two images: one for my background and one for the manipulation. What I did in my code is that I loaded the image of sun into the background of sky and then created an animation where it appears as if the sun is divided into small grids and each grid of the sun is changing its color or disappearing. When the code is run, it asks the user to click to start. When the mouse is clicked, the small grids change their colors for two rounds and on the third round, the grids start to disappear and ultimately the sky and a shrinked sun remain in the background. Screenshots are below:
 
 #### BEGINNING
 
@@ -19,7 +19,7 @@ In this assignment I was supposed to manipulate one or more images. So, I chose 
 
 ![](SSJune8_4.png)
 
-[Link to Video](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/June_8_image_manipulation/Video.mov)
+[Video](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/June_8_image_manipulation/Video.mov)
 
 ### CHALLENGES
 
