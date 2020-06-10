@@ -30,20 +30,20 @@ class Gamee {
     myDelay=false;
   }
 
-  void start() {
+  void start() {     //starts the game
     started=true;
     cards.remove(10);
     IntList shuffledList=shuffleCards(cards);
     divideCards(shuffledList);
   }
 
-  void display() {
+  void display() {      //display of the game
     player.displayMyCards("bottom");
     computer.displayMyCards("top");
     throwPairs.display();
   }
 
-  IntList shuffleCards(ArrayList<Card> cards) {
+  IntList shuffleCards(ArrayList<Card> cards) {    //shuffles the positions of the cards within the ArrayList
     IntList shuffledList=new IntList();
     for (int i=0; i<cards.size(); i++) {
       shuffledList.append(i);
@@ -52,7 +52,7 @@ class Gamee {
     return shuffledList;
   }
 
-  void divideCards(IntList shuffledList) {
+  void divideCards(IntList shuffledList) {     //divides the cards between the player and the computer according to the shuffledList
     ArrayList<Card> playerCards=new ArrayList<Card>();
     ArrayList<Card> computerCards=new ArrayList<Card>();
 
@@ -67,20 +67,20 @@ class Gamee {
     computer.setCards(computerCards);
   }
 
-  void throwPairCards() {
+  void throwPairCards() {     //removes matching cards from the player and the compuer's cards
     player.throwMyPairCards();
     computer.throwMyPairCards();
     pairThrown=true;
   }
 
-  boolean checkEnd() {
+  boolean checkEnd() {      //checks end of game
     if (player.cards.size()==0 || computer.cards.size()==0) {
       end=true;
     }
     return end;
   }
 
-  String returnWinner() {
+  String returnWinner() {      //returns the winner
     textSize(20);
     if (player.cards.size()==0) {
       victory.play();
