@@ -25,12 +25,12 @@ int myDelay=0;                                                            //used
 void setup() {
   size(1440, 800);
   background(0, 100, 0);
-  cardsImg=loadImage("/Users/yashaswi/Desktop/cards.png");
+  cardsImg=loadImage("cards.png");
   cardsImg.resize(CARDWIDTH*13, CARDHEIGHT*4);
 
-  matched = new SoundFile(this, "/Users/yashaswi/Desktop/ThrowPair.mp3");
-  victory = new SoundFile(this, "/Users/yashaswi/Desktop/victory.mp3");
-  lose = new SoundFile(this, "/Users/yashaswi/Desktop/lose.mp3");
+  matched = new SoundFile(this, "ThrowPair.mp3");
+  victory = new SoundFile(this, "victory.mp3");
+  lose = new SoundFile(this, "lose.mp3");
 }
 void draw() {
   if (!myGame.started && !myGame.ins) {                                    //home page
