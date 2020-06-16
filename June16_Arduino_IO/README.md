@@ -20,7 +20,7 @@ If switch is not pressed, both the LEDs light up but their brightness are determ
 
 ![](June16_Schematic.jpg)
 
-[Video]()
+[Video](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/June16_Arduino_IO/June16Video.mp4)
 
 #### CHALLENGES
 
