@@ -1,3 +1,15 @@
+/*
+ * Submitted by: Yashaswi Malla (ym1929)
+ * Submitted Date: June 17, 2020
+ * 
+ * Plays the rhythm of 'Twinkle Twinkle Little Star' whenever the button is pressed. 
+ * Two buttons are used (green and yellow). 
+ * The yellow button plays the rhythm in a loop as long as the button is pressed. 
+ * The green button plays the notes of the rhythm in reverse order in a loop as long as the button is pressed. 
+ * The potentiometer is used as the analog sensor (input). 
+ * It is used to determine the tempo of the rhythm i.e. how fast the rhythm is played.
+ */
+
 // Variables
 const int greenSwitchPin = A2;
 const int yellowSwitchPin = A0;
