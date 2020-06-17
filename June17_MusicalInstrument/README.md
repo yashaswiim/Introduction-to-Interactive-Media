@@ -10,7 +10,7 @@ The task in this assignment was to make a musical instrument using at least one 
 
 #### PHOTO OF PROJECT
 
-![](June17_imp.png)
+![](June17_img.png)
 
 #### PICTURE OF SCHEMATIC 
 
