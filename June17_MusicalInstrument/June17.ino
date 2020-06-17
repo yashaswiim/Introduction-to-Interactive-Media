@@ -1,14 +1,14 @@
 /*
- * Submitted by: Yashaswi Malla (ym1929)
- * Submitted Date: June 17, 2020
- * 
- * Plays the rhythm of 'Twinkle Twinkle Little Star' whenever the button is pressed. 
- * Two buttons are used (green and yellow). 
- * The yellow button plays the rhythm in a loop as long as the button is pressed. 
- * The green button plays the notes of the rhythm in reverse order in a loop as long as the button is pressed. 
- * The potentiometer is used as the analog sensor (input). 
- * It is used to determine the tempo of the rhythm i.e. how fast the rhythm is played.
- */
+  * Submitted by: Yashaswi Malla (ym1929)
+  * Submitted Date: June 17, 2020
+
+  * Plays the rhythm of 'Twinkle Twinkle Little Star' whenever the button is pressed.
+  * Two buttons are used (green and yellow).
+  * The yellow button plays the rhythm in a loop as long as the button is pressed.
+  * The green button plays the notes of the rhythm in reverse order in a loop as long as the button is pressed.
+  * The potentiometer is used as the analog sensor (input).
+  * It is used to determine the tempo of the rhythm i.e. how fast the rhythm is played.
+*/
 
 // Variables
 const int greenSwitchPin = A2;
@@ -57,28 +57,29 @@ void loop() {
 
   int totalNotes = sizeof(melody) / sizeof(melody[0]);                        //Total number of notes in the melody
 
-  if (currentMillis - currentNoteStartingPoint >= millisToNextNote &&         //Checks if it is time to play the next note
-      currentNote < totalNotes) {                                                 //and if the currentNote is less than total number of notes
-    if (yellowSwitchValue == 1) {                                             //Checks if yellow switch is pressed
-      int noteDuration = 1000 / noteDurations[currentNote];
-      tone(loudspeakerPin, melody[currentNote], noteDuration);                //Plays the notes in right order
-      millisToNextNote = noteDuration * (potentiometerValue / 10.0);          //Potentiometer determining the speed
-      currentNoteStartingPoint = currentMillis;
-      currentNote++;
-    }
-    else if (greenSwitchValue == 1) {                                         //Checks if green switch is pressed
-      int noteDuration = 1000 / noteDurations[totalNotes - 1 - currentNote];  //Plays the notes in reverse order
-      tone(loudspeakerPin, melody[totalNotes - 1 - currentNote], noteDuration);
-      millisToNextNote = noteDuration * (potentiometerValue / 10.0);          //Potentiometer determining the speed
-      currentNoteStartingPoint = currentMillis;
-      currentNote++;
-    }
-    else {
-      currentNote = 0;                                                        //If switch released, currentNote starts from beginning
+  if (yellowSwitchValue == 1 || greenSwitchValue == 1) {                      //Checks if any of the two switches is pressed
+    if (currentMillis - currentNoteStartingPoint >= millisToNextNote) {       //Checks if it is time to play the next note
+      if (currentNote < totalNotes) {                                         //Checks if the currentNote is less than total number of notes
+        int noteDuration;
+        if (yellowSwitchValue == 1) {                                         //Checks if yellow switch is pressed
+          noteDuration = 1000 / noteDurations[currentNote];                   //Plays the notes in right order
+          tone(loudspeakerPin, melody[currentNote], noteDuration);
+        }
+        else if (greenSwitchValue == 1) {                                     //Checks if green switch is pressed
+          noteDuration = 1000 / noteDurations[totalNotes - 1 - currentNote];  //Plays the notes in reverse order
+          tone(loudspeakerPin, melody[totalNotes - 1 - currentNote], noteDuration);
+        }
+
+        millisToNextNote = noteDuration * (potentiometerValue / 10.0);         //Potentiometer determining the speed
+        currentNoteStartingPoint = currentMillis;
+        currentNote++;
+      }
+      else {
+        noTone(loudspeakerPin);                                                //Stop after playing the rhythm once
+      }
     }
   }
-  else if (currentMillis - currentNoteStartingPoint >= millisToNextNote &&
-           currentNote >= totalNotes) {                                       //Looping once the full rhythm is played
+  else {                                                                       //If switch released, currentNote starts from beginning
     currentNote = 0;
   }
 }
