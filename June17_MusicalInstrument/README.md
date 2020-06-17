@@ -16,7 +16,7 @@ The task in this assignment was to make a musical instrument using at least one 
 
 ![](June17_Schematic.jpg)
 
-[Video]()
+[Video](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/June17_MusicalInstrument/June17Video.mp4)
 
 ### CHALLENGES
 
