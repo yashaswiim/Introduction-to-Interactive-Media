@@ -33,7 +33,7 @@ The task in this assignment was to make a simple game that involves some kind of
 
 #### Beginning of game
 
-![](SSJune21_1.png)
+![](June21_1.png)
 
 #### Green LED on catching item
 
@@ -45,7 +45,7 @@ The task in this assignment was to make a simple game that involves some kind of
 
 #### Ending of game
 
-![](SSJune21_2.png)
+![](June21_2.png)
 
 [Video]()
 
