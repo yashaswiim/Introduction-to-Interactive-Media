@@ -25,7 +25,7 @@ The task in this assignment was to make a simple game that involves some kind of
 
 #### Picture of Circuit
 
-![](June21_Circuit.png)
+![](June21_Circuit.jpg)
 
 #### Picture of Schematic
 
@@ -37,11 +37,11 @@ The task in this assignment was to make a simple game that involves some kind of
 
 #### Green LED on catching item
 
-![](June21_greenLED.png)
+![](June21_greenLED.jpg)
 
 #### Red LED on missing item
 
-![](June21_redLED.png)
+![](June21_redLED.jpg)
 
 #### Ending of game
 
