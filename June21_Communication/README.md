@@ -47,7 +47,7 @@ The task in this assignment was to make a simple game that involves some kind of
 
 ![](June21_2.png)
 
-[Video]()
+[Video](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/June21_Communication/June21Video.mp4)
 
 ### CHALLENGES
 
