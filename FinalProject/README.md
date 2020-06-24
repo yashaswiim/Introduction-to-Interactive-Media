@@ -18,7 +18,7 @@ For my project, since I chose to do the FIFA World Cup, the two teams are the fi
 
 #### PICTURE OF SCHEMATIC
 
-![](final_schematic.jpg)
+![](final_schematic_new.jpg)
 
 #### PICTURE OF CIRCUIT
 
@@ -38,7 +38,7 @@ For my project, since I chose to do the FIFA World Cup, the two teams are the fi
 
 ![](final_ss.png)
 
-[VIDEO]()
+[VIDEO](https://github.com/ym1929/Introduction-to-Interactive-Media/blob/master/FinalProject/final_Video.mp4)
 
 ### CHALLENGES
 
