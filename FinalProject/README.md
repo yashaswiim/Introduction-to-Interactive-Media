@@ -26,13 +26,17 @@ For my project, since I chose to do the FIFA World Cup, the two teams are the fi
 
 ![](final_circuit2.jpg)
 
+#### PICTURE OF SERO MOTOR WITH FLAGS
+
+![](final_servo.jpg)
+
 #### FULL PICTURE OF PROJECT
 
 ![](final.jpg)
 
 #### PROCESSING INTERFACE
 
-![](final_ss.jpg)
+![](final_ss.png)
 
 [VIDEO]()
 
